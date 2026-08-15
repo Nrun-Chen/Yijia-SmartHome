@@ -1,0 +1,70 @@
+{
+  "pages": [
+	{ "path": "pages/index/index",      "style": { "navigationStyle": "custom" } },
+    { "path": "pages/logon/logon", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/zhuye/zhuye",      "style": { "navigationStyle": "custom" } },
+    { "path": "pages/safe/safe",      "style": { "navigationStyle": "custom" } },
+    { "path": "pages/mine/mine",        "style": { "navigationStyle": "custom" } },
+    { "path": "pages/welcome/welcome",  "style": { "navigationStyle": "custom" } },
+    { "path": "pages/password/password","style": { "navigationStyle": "custom" } },
+    { "path": "pages/zhuce/zhuce",      "style": { "navigationStyle": "custom" } },
+    { "path": "pages/editRoom/editRoom","style": { "navigationStyle": "custom" } },
+    { "path": "pages/wallpaper/wallpaper","style": { "navigationStyle": "custom" } },
+    { "path": "pages/homeManage/homeManage","style": { "navigationStyle": "custom" } },
+    { "path": "pages/addhome/addhome",  "style": { "navigationStyle": "custom" } },
+    
+    { "path": "pages/edithome/edithome",  "style": { "navigationStyle": "custom" } },
+    { "path": "pages/adddevice/adddevice","style": { "navigationStyle": "custom" } },
+    { "path": "pages/devicemanager/devicemanager","style": { "navigationStyle": "custom" } },
+    { "path": "pages/erweima/erweima",  "style": { "navigationStyle": "custom" } },
+    { "path": "pages/room/room",        "style": { "navigationStyle": "custom" } },
+    { "path": "pages/family/family",    "style": { "navigationStyle": "custom" } },
+    { "path": "pages/faq/faq",          "style": { "navigationStyle": "custom" } },
+    { "path": "pages/notification/notification","style": { "navigationStyle": "custom" } },
+    { "path": "pages/setting/setting",  "style": { "navigationStyle": "custom" } },
+    { "path" : "pages/ai/ai",   "style": { "navigationStyle": "custom" } },
+	{ "path" : "pages/smart/smart",   "style": { "navigationStyle": "custom" } },
+	{ "path" : "pages/smart/addsmart/addsmart",   "style": { "navigationStyle": "custom" } },
+	{ "path" : "pages/smart/rizhi/rizhi",   "style": { "navigationStyle": "custom" } },
+    {
+    	"path" : "pages/zhineng/zhineng",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : ""
+    	}
+    }
+  ],
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#101010",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/zhuye/zhuye",
+        "text": "主页",
+        "iconPath": "static/tab/Home.png",
+        "selectedIconPath": "static/tab/Home1.png"
+      },
+      {
+        "pagePath": "pages/smart/smart",
+        "text": "智能",
+        "iconPath": "static/tab/wang.png",
+        "selectedIconPath": "static/tab/wang1.png"
+      },
+      {
+        "pagePath": "pages/ai/ai",
+        "text": "AI",
+        "iconPath": "static/tab/Ai.png",
+        "selectedIconPath": "static/tab/Ai1.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "static/tab/mine.png",
+        "selectedIconPath": "static/tab/mine1.png"
+      }
+    ]
+  },
+  "globalStyle": { "backgroundColor": "#FFFFFF" }
+}
