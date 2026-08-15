@@ -46,7 +46,7 @@ flowchart LR
     H --> E["灯光、风扇、水泵、警报和门铃"]
 ```
 
-## Quick Start
+## 快速开始
 
 ### 1. 准备环境
 
@@ -172,7 +172,7 @@ curl -X POST "http://localhost:8088/api/mqtt/send?topic=bigroom&message=liv_lit%
 
 仓库中没有可以展示的本地 AI REST API；`frontend/pages/ai/ai.vue` 会直接加载外部 MaxKB 页面。
 
-## MQTT Topic
+## MQTT 主题
 
 后端通过 `mqtt.topic=p_bigroom,bigroom` 配置默认 Topic，Hi3861 设备应用中也使用了相同名称。
 
